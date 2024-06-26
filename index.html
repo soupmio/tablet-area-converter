@@ -1,0 +1,25 @@
+<html>
+<head>
+</head>
+<body>
+
+	<form>
+	   <input id="me" name="ok" type="text">
+	   <br>
+	   <input id="you" name="yea" type="text">
+	   <br>
+	   <input onclick="f1()" type="submit" value="be well">
+	</form>
+<p id="pls"></p>
+
+	<script>
+		function f1() {
+			var x = Number(document.getElementById("me").value);
+			var y = Number(document.getElementById("you").value);
+			var yep="my gf is ";
+			z = x + y;
+			alert(yep + z);
+			}
+	</script>
+</body>
+</html>
